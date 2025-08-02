@@ -1515,13 +1515,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url=f'http://t.me/MovixNest_ownerbot
+                    InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/MovixNest_ownerbot'
                 ],[
                     InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                   InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url=f'http://t.me/MovixNest_ownerbot,
-                   InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄', url=f'https://t.me/MovixNest
+                   InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='http://t.me/MovixNest_ownerbot',
+                   InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄', url='https://t.me/MovixNest'
                 ],[
                      InlineKeyboardButton('✦ ᴛʀᴇɴᴅɪɴɢ ✦', callback_data="topsearch"),
                      InlineKeyboardButton('✦ ᴘʀᴇᴍɪᴜᴍ ✦', callback_data="premium_info"),
