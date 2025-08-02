@@ -1515,16 +1515,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/MovixNest_ownerbot'
+                    InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/MovixNest_ownerbot')
                 ],[
                     InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                   InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='http://t.me/MovixNest_ownerbot',
-                   InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄', url='https://t.me/MovixNest'
+                   InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='http://t.me/MovixNest_ownerbot'),
+                   InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄', url='https://t.me/MovixNest')
                 ],[
-                     InlineKeyboardButton('✦ ᴛʀᴇɴᴅɪɴɢ ✦', callback_data="topsearch"),
-                     InlineKeyboardButton('✦ ᴘʀᴇᴍɪᴜᴍ ✦', callback_data="premium_info"),
+                   InlineKeyboardButton('✦ ᴛʀᴇɴᴅɪɴɢ ✦', callback_data="topsearch"),
+                    InlineKeyboardButton('✦ ᴘʀᴇᴍɪᴜᴍ ✦', callback_data="premium_info"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
